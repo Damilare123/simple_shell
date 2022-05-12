@@ -43,12 +43,12 @@ $ echo "echo $HOME" | ./sodash
 The current working directory as set by the cd command.
 
 $ echo "echo $PWD" | ./sodash
-/home/vagrant/holberton/simple_shell
+/home/vagrant/alx-school/simple_shell
 ## OLDPWD
 The previous working directory as set by the cd command.
 
 $ echo "echo $OLDPWD" | ./sodash
-/home/vagrant/holberton/bog-062019-test_suite
+/home/vagrant/alx-school/bog-062019-test_suite
 ## PATH
 A colon-separated list of directories in which the shell looks for commands. A null directory name in the path (represented by any of two adjacent colons, an initial colon, or a trailing colon) indicates the current directory.
 
